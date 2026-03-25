@@ -2,7 +2,7 @@
 
 ## Objectives
 - Navigate through Cisco IOS command modes.
-- Perform basic device hardening (Hostnames, Passwords, MOTD).
+- Perform basic device hardening (Hostnames, Passwords).
 - Understand the difference between Running-Config and Startup-Config.
 
 ## Key Commands Mastered
@@ -13,8 +13,9 @@
 - `copy running-config startup-config`: Saving work to NVRAM.
 
 ## Lab Summary
-Configured a multi-switch environment (SW1-SW4) with security baselines. Verified configurations using `show running-config`.
-
+- **Type 7 encryption** is weak and mainly used to prevent "shoulder surfing".
+- **Type 5 (Secret)** is the standard for secure privileged access.
+  
 <img width="1919" height="1021" alt="lab" src="https://github.com/user-attachments/assets/8b387fdb-a1ab-4389-83bb-964546df52e8" />
 <img width="1919" height="1019" alt="lab 6" src="https://github.com/user-attachments/assets/890398b1-58cc-4957-bc7c-908bb2a3cc62" />
 <img width="1916" height="1025" alt="lab 5" src="https://github.com/user-attachments/assets/757ae982-052a-4fbb-8a89-8a2c686e04a8" />
