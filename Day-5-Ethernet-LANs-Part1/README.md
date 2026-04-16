@@ -38,7 +38,10 @@
 - If CRC fails, the frame is discarded.
 
 ## 6. Visual summary (from my notes)
-[Insert your handwritten notes screenshots here]
+<img width="576" height="1280" alt="WhatsApp Image 2026-04-15 at 07 13 59" src="https://github.com/user-attachments/assets/5de1f6f6-6547-4e8d-acd5-b65067f63efe" />
+<img width="576" height="1280" alt="WhatsApp Image 2026-04-15 at 07 14 00" src="https://github.com/user-attachments/assets/cf30e6ed-aeb6-4373-9af3-81c9163e1835" />
+
+
 
 ## Next step
-Day 6 – Ethernet Switching
+Day 6 – Ethernet LANs (Part 2)
