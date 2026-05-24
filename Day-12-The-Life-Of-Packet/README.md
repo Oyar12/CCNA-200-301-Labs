@@ -71,7 +71,8 @@ See the example below for theory reminders and subnetting explanations:
 
 ## 6. Screenshots
 
-<!-- Add your lab scenario and analysis screenshots here -->
+<img width="576" height="1280" alt="WhatsApp Image 2026-05-24 a16 37 38" src="https://github.com/user-attachments/assets/0a75df23-a455-4dcc-ba3a-d76ec021d2c1" />
+<img width="1918" height="1008" alt="Screenshot 2026-05-21 062701" src="https://github.com/user-attachments/assets/c5a67508-d1e7-4872-bbbc-264eccc55614" />
 
 ---
 
