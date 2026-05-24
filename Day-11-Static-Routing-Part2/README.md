@@ -106,3 +106,7 @@ Attach all relevant screenshots and handwritten notes showing:
 ## Author
 
 Lab and documentation by **Oyar12**, based on Cisco Packet Tracer CCNA 200-301 curriculum.
+<img width="576" height="1280" alt="WhatsApp Image 2026-0-24 at 1 37 37" src="https://github.com/user-attachments/assets/98574f01-4388-49cd-9925-00cbaef2b811" />
+<img width="1920" height="1080" alt="Screenshot_20260520_153137" src="https://github.com/user-attachments/assets/0811cd7b-e7a1-411e-992e-45423c5f7d6f" />
+<img width="1920" height="1080" alt="Screenshot_20260520_145258" src="https://github.com/user-attachments/assets/4e0b332d-209c-4a90-8364-0ce3ddb67d98" />
+
