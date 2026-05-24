@@ -1,4 +1,4 @@
-# CCNA 200-301 – Day 11 Lab: Static Routing (Part 2)
+# Day 11 Lab: Static Routing (Part 2)
 
 ## 1. Theory Reminder
 
