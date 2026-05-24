@@ -87,3 +87,8 @@ Use these essential diagnostic tools to verify configurations and isolate path f
 
 ---
 _Notes and lab configurations are aligned with Jeremy's IT Lab CCNA Complete Course._
+
+<img width="576" height="1280" alt="WhatsApp Image 2026-05-24 at 1 37 37" src="https://github.com/user-attachments/assets/849ec014-cd8c-45fa-b088-fd9f79ddd178" />
+<img width="1920" height="1080" alt="Screenshot_20260520_143215" src="https://github.com/user-attachments/assets/304750bd-8fa0-45c3-9dcb-3391bd24781e" />
+<img width="1920" height="1080" alt="Screenshot_20260520_141955" src="https://github.com/user-attachments/assets/04df605b-8a78-46db-930c-84d246579609" />
+
