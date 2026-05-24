@@ -52,9 +52,10 @@ _Summary of the lesson and historical motivation for subnetting:_
 
 ## 4. Illustrations
 
-<!-- For clarity, add your course slides here if needed: -->
-<!-- ![CIDR /30 Example](image6) -->
-<!-- ![CIDR Notation Table](image7) -->
+<img width="576" height="1280" alt="WhatsApp Image 2026-05-24 at  37 38" src="https://github.com/user-attachments/assets/15387e32-e9fd-4048-8d3b-efd9fd741399" />
+<img width="1190" height="695" alt="Screenshot 2026-05-21 142543" src="https://github.com/user-attachments/assets/6e360e3f-5630-4912-83b2-521f521240e7" />
+<img width="1196" height="707" alt="Screenshot 2026-05-21 142145" src="https://github.com/user-attachments/assets/d71d3839-70a1-4339-9028-c58fa1059bd4" />
+
 
 ---
 
