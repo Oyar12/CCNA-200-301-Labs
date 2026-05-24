@@ -109,9 +109,8 @@ ICMP requests were sent from the PC1 command prompt to the other subnets:
 * `ping 201.191.20.1` (PC3) ➡️ **Success**.
 
 Routing between the three subnets is fully operational.
+<img width="1920" height="1080" alt="Screenshot_20260519_220024" src="https://github.com/user-attachments/assets/33cc1494-ba45-476b-9adf-13a40d5ed3fd" />
+<img width="1920" height="1080" alt="Screenshot_20260519_220325" src="https://github.com/user-attachments/assets/13fe6c4b-8d25-49db-a442-b0c37a1a76ba" />
+<img width="1920" height="1080" alt="Screenshot_20260519_220218" src="https://github.com/user-attachments/assets/cea37983-deb9-40a9-9c94-3f8dbd4ad3c4" />
+<img width="576" height="1280" alt="jpeg" src="https://github.com/user-attachments/assets/8b704b75-c957-4bad-89f6-8577bdb7123f" />
 
-<img width="1920" height="1080" alt="Screenshot_20260519_220325" src="https://github.com" />
-<img width="1920" height="1080" alt="Screenshot_20260519_220218" src="https://github.com" />
-<img width="1920" height="1080" alt="Screenshot_20260519_220024" src="https://github.com" />
-<img width="576" height="1280" alt="jpeg" src="https://github.com" />
-<img width="1920" height="1080" alt="Screenshot_20260519_220024" src="https://github.com" />
