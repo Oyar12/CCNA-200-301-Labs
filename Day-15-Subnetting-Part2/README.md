@@ -58,10 +58,8 @@
 
 ## 5. Screenshots & Handwritten Notes
 
-- **Packet Tracer addressing & CLI status:**  
-  ![Packet Tracer addressing and CLI interface status](image8)
-- **Ping and static routing test results:**  
-  ![Ping tests and routing verification](image9)
+<img width="1919" height="1021" alt="Screenshot 2026-05-23 120906" src="https://github.com/user-attachments/assets/d6fbf57d-0b72-489f-8c09-2058f3f2ca84" /><img width="576" height="1280" alt="WhatsApp Image 2026-05-24 at 44" src="https://github.com/user-attachments/assets/ab228660-f572-4a6c-bf38-09f7a7651947" />
+<img width="1919" height="1020" alt="Screenshot 2026-05-23 122419" src="https://github.com/user-attachments/assets/a52ae285-67af-446c-b0cc-63760a0c590f" />
 
 ---
 
