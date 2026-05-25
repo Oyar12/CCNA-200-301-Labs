@@ -71,9 +71,8 @@ _Your handwritten calculations and examples:_
 
 ## 6. Illustrations
 
-<!-- Add your course diagrams here for clarity: -->
-<!-- ![Subnetting Bitwise Example](image6) -->
-<!-- ![Subnets/Hosts Table](image7) -->
+<img width="1214" height="714" alt="Screenshot 2026-05-22 072841" src="https://github.com/user-attachments/assets/6855b903-2086-42a8-8d0a-1989750c677f" /><img width="576" height="1280" alt="WhatsApp Imae 2026-05-24 at 16 37 42" src="https://github.com/user-attachments/assets/e439f540-647a-4151-9b05-7e07d52e7c18" />
+
 
 ---
 
