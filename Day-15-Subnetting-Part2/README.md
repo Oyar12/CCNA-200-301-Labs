@@ -3,74 +3,65 @@
 ## 1. VLSM – Quick Theory Recap
 
 - **VLSM (Variable Length Subnet Mask):**  
-  A technique to create subnets of different sizes within the same parent network, so that each subnet fits the number of hosts required—no wasted addresses.
-
-- **Why VLSM?**  
-  Standard FLSM (Fixed Length Subnet Mask) wastes IP addresses when network segments are of very different sizes. VLSM allows allocating bigger subnets to big LANs and smaller ones to small LANs or WAN links.
-
-- **How VLSM is applied:**
-    1. List all network segments and the number of hosts needed for each.
-    2. Sort them from largest to smallest.
-    3. Assign the largest subnet first (from the start of the address range), then the next largest, and so on.
-    4. Continue assigning subnets until all are addressed.
-
-- **Key formulas:**
-    - Hosts per subnet: `2^n - 2` (where `n` is the number of host bits)
-    - Number of subnets: `2^s` (where `s` is the number of borrowed bits)
+  A method for creating subnets of different sizes from one large block, maximizing address efficiency.
+- **Process:**  
+  List all required subnet sizes, assign the largest first, continue with the next largest, and so on until the address space is fully allocated.
+- **Key formulas:**  
+  - Usable hosts per subnet: `2^n - 2` (n = number of host bits)
+  - Number of subnets: `2^s` (s = number of borrowed bits)
 
 ---
 
-## 2. Lab – VLSM in Practice
+## 2. Lab – VLSM Subnetting (My Implementation)
 
-### a) Scenario
+**Starting network:** `192.168.5.0/24`  
+**Subnet requirements observed in lab:**
+- **LAN1:** 64 hosts
+- **LAN2:** 45 hosts
+- **LAN3:** 14 hosts
+- **LAN4:** 9 hosts
+- **Point-to-point link (R1-R2):** 2 hosts
 
-- **Network Provided:** `192.168.5.0/24`
-- **Requirements:**
-  - Tokyo LAN A: 110 hosts
-  - Tokyo LAN B: 8 hosts
-  - Toronto LAN A: 29 hosts
-  - Toronto LAN B: 45 hosts
-  - 1 Point-to-point link between routers
+**Subnet assignments (from screenshots/capture):**
+- **LAN1:** `192.168.5.0/26` (Range: 192.168.5.1–192.168.5.62, Broadcast: .63)
+- **LAN2:** `192.168.5.64/26` (Range: 192.168.5.65–192.168.5.126, Broadcast: .127)
+- **LAN3:** `192.168.5.128/28` (Range: 192.168.5.129–192.168.5.142, Broadcast: .143)
+- **LAN4:** `192.168.5.144/28` (Range: 192.168.5.145–192.168.5.158, Broadcast: .159)
+- **Point-to-point:** `192.168.5.224/30` (Range: 192.168.5.225–192.168.5.226, Broadcast: .227)
 
-### b) Subnet Planning
-
-Assigned VLSM subnets (in order of descending size):
-
-- Tokyo LAN A: `192.168.5.0/25` (126 usable hosts)
-- Toronto LAN B: `192.168.5.128/26` (62 usable hosts)
-- Toronto LAN A: `192.168.5.192/27` (30 usable hosts)
-- Others (example for smaller LANs / point-to-point as needed): `/28`, `/30` or `/31`
-
-### c) Lab Steps Performed
-
-1. **Subnet Calculation & Address Map**
-   - Manually planned and written down; cross-checked with Packet Tracer diagrams (see screenshots).
-
-2. **Packet Tracer Implementation**
-   - Assigned the first usable IP of each subnet to the PC in the LAN.
-   - Assigned the last usable IP address in the subnet to the router.
-   - Used `show ip int brief` to verify interface assignments.
-   - Configured static routing so all PCs could communicate.
-
-3. **Testing & Troubleshooting**
-   - Verified connectivity with `ping` between all PCs.
-   - If ping failed, checked subnet masks, interface addresses, and routing settings.
+**Subnetting approach:**  
+1. Calculated all subnet sizes with VLSM, starting with the largest.
+2. Assigned the first usable address of each subnet to the PC.
+3. Assigned the last usable address to the router interface.
+4. Configured static routes on both routers to allow full end-to-end connectivity.
 
 ---
 
-## 3. Screenshots & Handwritten Notes
+## 3. Packet Tracer Implementation
 
-- **Handwritten VLSM calculation plan:**  
-  ![Handwritten plan](image12)
+- Addressed each LAN with its proper VLSM subnet & assigned interfaces/hosts as per design.
+- Used `show ip int brief` to confirm interface IPs and status (see right-side CLI windows in screenshots).
+- Performed connectivity tests (see ping window in screenshot).
 
-- **Network and addressing map:**  
-  ![Network map and addressing](image9)
+---
 
-- **Packet Tracer configuration and interface setup:**  
-  ![Config interface/PC/route](image10)
+## 4. Verification & Results
 
-- **Ping/routing test results:**  
-  ![Ping and routing validation](image11)
+- All PCs were assigned the first usable address in their subnet.
+- Router interfaces received the last usable address in the subnet.
+- After static routing configuration, all hosts could ping each other successfully.
+
+**Troubleshooting**:
+- Checked subnet masks, routing tables, and interface status if ping failed at any stage.
+
+---
+
+## 5. Screenshots & Handwritten Notes
+
+- **Packet Tracer addressing & CLI status:**  
+  ![Packet Tracer addressing and CLI interface status](image8)
+- **Ping and static routing test results:**  
+  ![Ping tests and routing verification](image9)
 
 ---
 
